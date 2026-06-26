@@ -14,9 +14,9 @@ function App() {
       <BrowserRouter>
       <ContactContextProvider>
       <Routes>
-        <Route exact path="/" element={<Signin/>}/>
-        <Route path="/signup" element={<Signup/>}/>
-        <Route path="/TotalContacts" element={<TotalContact/>}/>
+        <Routet={<Signin/>}/>
+        <Route path="" element={<Signup/>}/>
+        <Route path="/TotalContacts" element={/>}/>
       </Routes>
       </ContactContextProvider>
       </BrowserRouter>
